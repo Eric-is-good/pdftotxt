@@ -1,5 +1,17 @@
 # pdf 转 txt
 
+
+
+## 效果
+
+![1](C:\Users\Administrator\Desktop\1.jpg)
+
+
+
+![2](C:\Users\Administrator\Desktop\2.jpg)
+
+## 使用方法
+
 安装三个包 python-office, paddleocr 和 tqdm <br><br>
 再新建一个 pics 文件夹 <br><br>
 直接运行main即可 <br><br>
