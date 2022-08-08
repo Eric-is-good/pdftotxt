@@ -26,5 +26,5 @@ def pic_to_txt(path, output):
                 f.write("#############################################################")
                 f.write("\n")
             except:
-                print("图片名为：" + imglist[j] + "的图片无法提取文字，可能已损坏")
+                print("图片名为：" + "images_" + str(j) + ".png" + "的图片无法提取文字，可能已损坏")
                 j = j + 1
