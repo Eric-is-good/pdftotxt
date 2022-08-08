@@ -1,5 +1,6 @@
 # pdf 转 txt
 
+安装三个包 python-office, paddleocr 和 tqdm <br><br>
 直接运行main即可 <br><br>
 使用了 paddleocr 的人工智能技术 <br>
 把 pdf 转成 txt <br>
