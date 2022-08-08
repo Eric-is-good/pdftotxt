@@ -4,11 +4,11 @@
 
 ## 效果
 
-![1](C:\Users\Administrator\Desktop\1.jpg)
+![1](https://github.com/Eric-is-good/pdftotxt/blob/main/readmepic/1.jpg)
 
 
 
-![2](C:\Users\Administrator\Desktop\2.jpg)
+![2](https://github.com/Eric-is-good/pdftotxt/blob/main/readmepic/2.jpg)
 
 ## 使用方法
 
