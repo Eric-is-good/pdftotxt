@@ -15,7 +15,8 @@ def pic_to_txt(path, output):
     with open(output, "w") as f:
         for img in tqdm(imglist):
             try:
-                result = ocr.ocr(os.path.join(path, img), cls=True)
+                img2 = "images_" + str(j) + ".png"
+                result = ocr.ocr(os.path.join(path, img2), cls=True)
                 txts = [line[1][0] for line in result]
                 for i in txts:
                     f.write(i)
