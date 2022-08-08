@@ -8,9 +8,10 @@ from tqdm import tqdm
 def pic_to_txt(path, output):
     j = 0
     imglist = os.listdir(path)
-    print("µ¼ÈëÎÄ±¾Ê¶±ğÆ÷")
+    sorted(imglist)
+    print("å¯¼å…¥æ–‡æœ¬è¯†åˆ«å™¨")
     ocr = PaddleOCR(use_angle_cls=True, lang="ch", show_log=False)
-    print("¿ªÊ¼×ª»»")
+    print("å¼€å§‹è½¬æ¢")
     with open(output, "w") as f:
         for img in tqdm(imglist):
             try:
@@ -24,5 +25,5 @@ def pic_to_txt(path, output):
                 f.write("#############################################################")
                 f.write("\n")
             except:
-                print("Í¼Æ¬ÃûÎª£º" + imglist[j] + "µÄÍ¼Æ¬ÎŞ·¨ÌáÈ¡ÎÄ×Ö£¬¿ÉÄÜÒÑËğ»µ")
+                print("å›¾ç‰‡åä¸ºï¼š" + imglist[j] + "çš„å›¾ç‰‡æ— æ³•æå–æ–‡å­—ï¼Œå¯èƒ½å·²æŸå")
                 j = j + 1
