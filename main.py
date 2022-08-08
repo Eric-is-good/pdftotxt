@@ -3,7 +3,7 @@ from pdf_to_pic import pdf_to_pic
 from pic_to_txt import pic_to_txt
 
 """
-ÄãÒªÏÈ½¨ºÃ pics ÎÄ¼þ¼Ð
+ä½¿ç”¨å‰å…ˆå»ºç«‹ pics æ–‡ä»¶å¤¹
 .pdf --->  pics  ----> .txt
 """
 
